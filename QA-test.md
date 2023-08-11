@@ -42,58 +42,67 @@
 
 EXERCISE:
 
-1. Test Scenario
-   A. Tidak terdapat warning saat mengisi form email dengan salah
-   B. Tidak terdapat warning saat mengisi form password dengan salah
-   C. Mengisi form email dengan password random masih bisa login
-   D. Mengisi form login dengan benar, tetapi tidak sesuai Role saat sudah masuk home
+1. Test Scenario:
 
-2. Test Scenario
-   A. Periksa link pada saat menekan login with sesuai(tombol Facebook ke halaman Facebook)
-   B. Periksa persetujuan untuk facebook dapat mengakses aplikasi(seperti perijinan)
+   - Tidak terdapat warning saat mengisi form email dengan salah.
+   - Tidak terdapat warning saat mengisi form password dengan salah.
+   - Mengisi form email dengan password random masih bisa login.
+   - Mengisi form login dengan benar, tetapi tidak sesuai Role saat sudah masuk home.
+
+2. Test Scenario:
+
+   - Periksa link pada saat menekan login with sesuai(tombol Facebook ke halaman Facebook)
+   - Periksa persetujuan untuk facebook dapat mengakses aplikasi(seperti perijinan)
 
 3. –
 
-4. Test Scenario
-   A. Add Product to cart:
-   • Buka halaman rincian produk.
-   • Pilih opsi "Tambah ke Keranjang" atau "Beli Sekarang".
-   • Pastikan produk yang dipilih ditampilkan dengan benar pada halaman keranjang.
-   • Verifikasi bahwa jumlah dan harga produk sesuai dengan yang diharapkan.
+4. Test Scenario:
+
+A. Add Product to cart:
+
+- Buka halaman rincian produk.
+- Pilih opsi "Tambah ke Keranjang" atau "Beli Sekarang".
+- Pastikan produk yang dipilih ditampilkan dengan benar pada halaman keranjang.
+- Verifikasi bahwa jumlah dan harga produk sesuai dengan yang diharapkan.
 
 B. Update cart :
-• Tambahkan beberapa produk ke dalam keranjang.
-• Buka halaman keranjang.
-• Ubah kuantitas produk untuk salah satu item.
-• Pastikan perubahan kuantitas tercermin dengan benar dalam ringkasan pesanan.
+
+- Tambahkan beberapa produk ke dalam keranjang.
+- Buka halaman keranjang.
+- Ubah kuantitas produk untuk salah satu item.
+- Pastikan perubahan kuantitas tercermin dengan benar dalam ringkasan pesanan.
 
 C. Delete Product from cart:
-• Tambahkan beberapa produk ke dalam keranjang.
-• Buka halaman keranjang.
-• Hapus satu atau lebih produk dari keranjang.
-• Pastikan produk dihapus secara akurat dan total harga diperbarui sesuai.
+
+- Tambahkan beberapa produk ke dalam keranjang.
+- Buka halaman keranjang.
+- Hapus satu atau lebih produk dari keranjang.
+- Pastikan produk dihapus secara akurat dan total harga diperbarui sesuai.
 
 D. Navigate between Screen:
-• Buka halaman rincian produk.
-• Tambahkan produk ke keranjang.
-• Klik tombol "Lanjutkan Belanja" atau "Lihat Keranjang".
-• Pastikan navigasi antara halaman rincian produk dan halaman keranjang berjalan lancar.
+
+- Buka halaman rincian produk.
+- Tambahkan produk ke keranjang.
+- Klik tombol "Lanjutkan Belanja" atau "Lihat Keranjang".
+- Pastikan navigasi antara halaman rincian produk dan halaman keranjang berjalan lancar.
 
 E. Manage cart:
-• Pastikan stok produk yang terbatas ditampilkan dengan benar di halaman rincian produk.
-• Tambahkan produk ke keranjang hingga stok hampir habis.
-• Verifikasi apakah produk tidak bisa ditambahkan lagi jika stok habis di halaman keranjang.
+
+- Pastikan stok produk yang terbatas ditampilkan dengan benar di halaman rincian produk.
+- Tambahkan produk ke keranjang hingga stok hampir habis.
+- Verifikasi apakah produk tidak bisa ditambahkan lagi jika stok habis di halaman keranjang.
 
 F. Verify total cost:
-• Tambahkan beberapa produk ke keranjang dengan harga yang berbeda.
-• Buka halaman keranjang dan periksa total harga yang ditampilkan.
-• Pastikan total harga dihitung dengan benar berdasarkan harga produk dan kuantitas.
 
-5. Test Scenario
+- Tambahkan beberapa produk ke keranjang dengan harga yang berbeda.
+- Buka halaman keranjang dan periksa total harga yang ditampilkan.
+- Pastikan total harga dihitung dengan benar berdasarkan harga produk dan kuantitas.
 
-   A. Periksa halaman/popup Payment gateway dapat muncul atau tidak
-   B. Check system behavior when valid virtual account is entered
-   C. Check system behavior when invalid virtual account is entered.
-   D. Periksa jumlah uang di aplikasi dengan payment gateway
-   E. Periksa status saat ada perubahan (belum terbayar, sudah dibayar) pada aplikasi dan jasa payment gateway nya
-   F. Periksa halaman/popup Payment gateway dapat tertutup atau tidak dan kembali ke aplikasi
+5. Test Scenario:
+
+   - Periksa halaman/popup Payment gateway dapat muncul atau tidak
+   - Check system behavior when valid virtual account is entered
+   - Check system behavior when invalid virtual account is entered.
+   - Periksa jumlah uang di aplikasi dengan payment gateway
+   - Periksa status saat ada perubahan (belum terbayar, sudah dibayar) pada aplikasi dan jasa payment gateway nya
+   - Periksa halaman/popup Payment gateway dapat tertutup atau tidak dan kembali ke aplikasi
